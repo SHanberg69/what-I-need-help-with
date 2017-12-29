@@ -1,0 +1,47 @@
+/*-- is this needed?--*/
+@mixin flexbox() {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+
+
+
+
+
+body {
+	background-color: #339966;
+	font-family:"Lucida Sans Unicode" Lucida Grande  sans-serif;
+	color: #fff;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+	align-items:center;
+	align-content: center;
+	/*-- the name box didn't even appear until I added the last four attributes--*/
+}
+.home_container{
+	background-color: #339966;
+	display:flex;
+	
+}/*-- originally had home container with the last four attributes I added to body--*/
+
+.name_box{
+	width: 300px;
+	height: 200px;
+	display: flex;
+	justify-content: space-around;
+	background: rgba(0, 0, 0, 0.5); 
+	color: #fff;
+	margin-top:-40%;
+	margin-left:-20%;
+	
+}
+
+
+.h3{
+	text-indent:50px;
+}
